@@ -1,0 +1,2 @@
+A regular Column loads and renders all items at once even if they are not on screen which is very slow and wastes memory for large lists
+LazyColumn is better because it only renders the items that are currently visible on the screen and recycles them as we scroll which makes it smooth and fast for hundreds of courses
